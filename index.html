@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWEETGUM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 主選單 -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SWEETGUM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="padding-bottom: 2px;padding-top: 10px;">HOME</a>
+            <hr class="dropdown-divider" style="margin-top: 0px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="padding-bottom: 2px;padding-top: 10px;">STORY</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="padding-bottom: 2px;padding-top: 10px;">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">CHOCOLATE</a></li>
+              <li><a class="dropdown-item" href="#">YOGURT</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">CAKE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="padding-bottom: 2px;padding-top: 10px;">ABOUT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+  <!-- 第一層HOME -->
+  <div class="bg-image" style="background-image: url(./oranges.jpg);height: 100vh; ">
+    <div class="logo">SWEETGUM</div>
+  </div>
+  <!-- 第二層STORY -->
+  <div class="bg-image" style="background-image: url(./macaron1.jpg);height: 100vh; ">
+    <div class="intro" style="padding-top: 250px;padding-bottom: 190px;">
+      一間主打低碳低醣的生酮甜點店
+      <p>每樣甜點都有詳細的原料標示
+      <p>讓在控制體重的你
+      <p>或是罹患糖尿病的朋友們
+      <p>都能享受最簡單的幸福
+    </div>
+  </div>
+  <!-- 第三層PRODUCTS之1-choco-1 -->
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col" style="
+      padding-left: 0px;">
+        <div class="intro-image"><img src="chocolate.jpg" class="img-fluid" alt=""></div>
+      </div>
+      <div class="col" style="
+      padding-right: 120px;
+      padding-left: 50px;">
+        <br>
+        <br>
+        <h3>CHOCOLATE</h3>
+        <br>適量食用黑巧克力(Dark chocolate)可以提高機體的抗氧化，從而有利於預防心血管疾病，糖尿病，低血糖(Cardiovascular disease)的發生。
+        <br>
+        <button style="
+        margin-left: 300px;
+        margin-top: 100px;">more</button>
+      </div>
+    </div>
+  </div>
+  <!-- 未點前需隱藏第四層PRODUCTS-choco-->
+  <div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="cho01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">嚴選黑巧克力</h5>
+            <p class="card-text">$280</p>
+            <p class="card-text">詳細資料</p>
+            
+              <button type="button mx-auto text-nowrap" class="btn btn-outline-dark">加入購物車</button>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cho02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">特選白巧克力</h5>
+            <p class="card-text">$270</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cho03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">堅果巧克力</h5>
+            <p class="card-text">$300</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cho04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">綜合巧克力</h5>
+            <p class="card-text">$280</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cho05.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">焦糖脆巧克力</h5>
+            <p class="card-text">$250</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第三層PRODUCTS之2-yogurt-1 -->
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col" style="
+      padding-left: 0px;">
+        <div class="intro-image"><img src="yogurt.jpg" class="img-fluid" alt=""></div>
+      </div>
+      <div class="col" style="
+      padding-right: 120px;
+      padding-left: 50px;">
+        <br>
+        <br>
+        <h3>YOGURT</h3>
+        <br>採用保加利亞桿菌(L.bulgaricus)及嗜熱鏈球菌(S.thermophilus)這兩個菌種發酵之希臘優格。製作時使用的牛奶量，比一般優格高出4倍以上！
+        <br>
+        <button style="
+        margin-left: 300px;
+        margin-top: 100px;">more</button>
+      </div>
+    </div>
+  </div>
+  <!-- 未點前需隱藏第四層PRODUCTS-yogurt -->
+  <div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="yogurt01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">莓果優格飲</h5>
+            <p class="card-text">$180</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="yogurt02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">黑莓優格飲</h5>
+            <p class="card-text">$170</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="yogurt03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">草莓優格飲</h5>
+            <p class="card-text">$170</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="yogurt04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">綜合優格飲</h5>
+            <p class="card-text">$190</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="yogurt05.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">巧克力優格飲</h5>
+            <p class="card-text">$170</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第三層PRODUCTS之3-cake-1 -->
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col" style="
+      padding-left: 0px;">
+        <div class="intro-image"><img src="cake.jpg" class="img-fluid" alt=""></div>
+      </div>
+      <div class="col" style="
+      padding-right: 120px;
+      padding-left: 50px;">
+        <br>
+        <br>
+        <h3>CAKE</h3>
+        <br>獨家研發的無麩質蛋糕。主要利用水果天然的果糖或以甜菊糖(Stevia)增加甜味。用植物油、牛油果或希臘乳酪代替牛油，以改善蛋糕的飽和脂肪比例。
+        <br>
+        <button style="
+        margin-left: 300px;
+        margin-top: 100px;">more</button>
+      </div>
+    </div>
+  </div>
+  <!-- 未點前需隱藏第四層PRODUCTS-cake-->
+  <div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="cake01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">焦糖脆蛋糕</h5>
+            <p class="card-text">$280</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cake02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">咖啡黑巧蛋糕</h5>
+            <p class="card-text">$270</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cake03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">水果塔</h5>
+            <p class="card-text">$300</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cake04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">布朗尼</h5>
+            <p class="card-text">$250</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="cake05.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">莓果起司蛋糕</h5>
+            <p class="card-text">$270</p>
+            <p class="card-text">詳細資料</p>
+            <div class="col-1 cols-md-5 mx-auto text-nowrap ">
+              <button type="button" class="btn btn-outline-dark">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 第五層ABOUT -->
+  <footer class="bg-light py-4">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col">
+          <div class="map">
+            <img src="map.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col ms-auto " style="padding-left: 80px; padding-top: 25px;">
+          <h4>SWEETGUM</h4>
+          <p></p>
+          <h5>MON-SAT 13:00-23:00</h5>
+          <p>sweetgum@gmail.com</p>
+          <p>@sweetgum_9</p>
+          <p>03-6685056</p>
+          <p>新竹縣竹北市光明六路東二段9號</p>
+          <br>
+          <div class="smallbtn">
+            <button type="button" class="btn btn-outline-dark" style="
+            margin-right: 15px;
+        ">IG</button>
+            <button type="button" class="btn btn-outline-dark" style="
+            margin-right: 15px;
+        ">FB</button>
+            <button type="button" class="btn btn-outline-dark">LINE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- 輪播資訊 -->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-4">
+            <div class="box-warp bg-dark text-white">
+              <div class="img-warp">
+                <img src="candy1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="text-warp p-3">
+                <h5>生酮甜點是什麼?</h5>
+                <h6 class="text-muted">2022/05/07</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box-warp bg-dark text-white">
+              <div class="img-warp">
+                <img src="candy2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="text-warp p-3">
+                <h5>糖尿病友也可以吃甜食嗎?</h5>
+                <h6 class="text-muted">2022/05/27</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="box-warp bg-dark text-white">
+              <div class="img-warp">
+                <img src="cupcakes-.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="text-warp p-3">
+                <h5>每日建議攝取糖量是多少?</h5>
+                <h6 class="text-muted">2022/06/03</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="home.js"></script>
+</body>
+
+
+
+</html>
