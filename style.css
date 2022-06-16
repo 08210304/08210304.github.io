@@ -28,6 +28,10 @@
     color: rgb(237, 104, 32);
 }
 
+.gray {
+    color: rgb(119, 119, 119);
+}
+
 .btn {
     border-radius: 9999px;
 }
@@ -47,6 +51,17 @@
 .navbar-light .navbar-brand {
     color: rgb(237, 104, 32);
     font-family: 'Libre Baskerville', serif;
+}
+
+.nav-link{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 10px;
+}
+.dropdown-menu{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {

@@ -24,13 +24,14 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" style="font-family: 'Libre Baskerville', serif;"
+        id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#" style="padding-bottom: 2px;padding-top: 10px;">HOME</a>
-            <hr class="dropdown-divider" style="margin-top: 0px;">
+
           <li class="nav-item">
-            <a class="nav-link" href="#" style="padding-bottom: 2px;padding-top: 10px;">STORY</a>
+            <a class="nav-link" href="#story" style="padding-bottom: 2px;padding-top: 10px;">STORY</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -38,21 +39,21 @@
               PRODUCTS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">CHOCOLATE</a></li>
-              <li><a class="dropdown-item" href="#">YOGURT</a></li>
+              <li><a class="dropdown-item" href="#chocolate">CHOCOLATE</a></li>
+              <li><a class="dropdown-item" href="#yougurt">YOGURT</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">CAKE</a></li>
+              <li><a class="dropdown-item" href="#cake">CAKE</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active" aria-current="page" href="#about"
               style="padding-bottom: 2px;padding-top: 10px;">ABOUT</a>
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-dark" type="submit">購物車</button>
         </form>
 
       </div>
@@ -63,7 +64,7 @@
     <div class="logo">SWEETGUM</div>
   </div>
   <!-- 第二層STORY -->
-  <div class="bg-image" style="background-image: url(./macaron1.jpg);height: 100vh; ">
+  <div id="story" class="bg-image" style="background-image: url(./macaron1.jpg);height: 100vh; ">
     <div class="intro" style="padding-top: 250px;padding-bottom: 190px; font-family: 'Noto Serif TC', serif;">
       一間主打低碳低醣的生酮甜點店
       <p>每樣甜點都有詳細的原料標示
@@ -74,7 +75,7 @@
   </div>
   <!-- 第三層PRODUCTS之1-choco-1 -->
   <div class="container-fluid bg-brown">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div id="chocolate" class="row row-cols-1 row-cols-md-2">
       <div class="col" style="
       padding-left: 0px;">
         <div class="intro-image"><img src="chocolate.jpg" class="img-fluid" alt=""></div>
@@ -166,7 +167,7 @@ font-family: 'Noto Serif TC', serif;">
   </div>
   <!-- 第三層PRODUCTS之2-yogurt-1 -->
   <div class="container-fluid bg-red">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div id="yogurt" class="row row-cols-1 row-cols-md-2">
       <div class="col" style="
       padding-left: 0px;">
         <div class="intro-image"><img src="yogurt.jpg" class="img-fluid" alt=""></div>
@@ -260,7 +261,7 @@ font-family: 'Noto Serif TC', serif;">
   </div>
   <!-- 第三層PRODUCTS之3-cake-1 -->
   <div class="container-fluid bg-rice">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div id="cake" class="row row-cols-1 row-cols-md-2">
       <div class="col " style="
       padding-left: 0px;">
         <div class="intro-image"><img src="cake.jpg" class="img-fluid" alt=""></div>
@@ -355,7 +356,7 @@ font-family: 'Noto Serif TC', serif;">
 
   <!-- 第五層ABOUT -->
   <footer class="bg-light py-4">
-    <div class="container">
+    <div id="about" class="container">
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col">
           <div class="map">
@@ -385,61 +386,8 @@ font-family: 'Noto Serif TC', serif;">
       </div>
     </div>
   </footer>
-  <!-- 輪播資訊 -->
-  <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col-4">
-            <div class="box-warp bg-dark text-white">
-              <div class="img-warp">
-                <img src="candy1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="text-warp p-3">
-                <h5>生酮甜點是什麼?</h5>
-                <h6 class="text-muted">2022/05/07</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="box-warp bg-dark text-white">
-              <div class="img-warp">
-                <img src="candy2.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="text-warp p-3">
-                <h5>糖尿病友也可以吃甜食嗎?</h5>
-                <h6 class="text-muted">2022/05/27</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="box-warp bg-dark text-white">
-              <div class="img-warp">
-                <img src="cupcakes-.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="text-warp p-3">
-                <h5>每日建議攝取糖量是多少?</h5>
-                <h6 class="text-muted">2022/06/03</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -15,3 +15,13 @@ $(document).ready(function(){
       $(".cake").slideToggle(500);
     });
   });
+  
+  $(function() {
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+        $(".#").addClass(".#");
+      } else {
+        $(".#").removeClass(".#");
+      }
+    });
+  });
