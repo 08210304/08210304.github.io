@@ -7,8 +7,8 @@
 
 .logo {
     color: rgb(237, 104, 32);
-    font-size: 30px;
-    font-family: serif;
+    font-size: 55px;
+    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
     text-shadow: 0 0 20px rgb(154, 125, 116);
     text-align: center;
@@ -18,11 +18,103 @@
 .intro {
     color: rgb(255, 246, 241);
     font-size: 20px;
-    font-family: serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: lighter;
     text-align: center;
     padding-top: 30vh;
 }
-.sweetorange{
+
+.sweetorange {
     color: rgb(237, 104, 32);
+}
+
+.btn {
+    border-radius: 9999px;
+}
+
+.bg-brown {
+    background: rgba(68, 22, 6, 0.464);
+}
+
+.bg-red {
+    background: rgba(122, 19, 19, 0.482);
+}
+
+.bg-rice {
+    background: rgba(255, 218, 160, 0.577);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(237, 104, 32);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .9);
+}
+
+.cakelist {
+    padding: 20px 20px 50px;
+}
+
+.yogurtlist {
+    padding: 20px 20px 50px;
+}
+
+.chocolist {
+    padding: 20px 20px 50px;
+}
+
+.card {
+    border-radius: 999px 999px 50px 50px;
+}
+
+.card-img-top {
+    border-radius: 999px 999px 30px 30px;
+}
+
+.choco {
+    display: none;
+}
+
+.yogurt {
+    display: none;
+}
+
+.cake {
+    display: none;
+}
+
+.morechoco {
+    margin-top: 15px;
+    padding: 10px 5px;
+    border-color: rgb(68, 22, 6);
+    border-style:solid;
+    background-color: rgb(68, 22, 6);
+    border-radius: 90px;
+    color:  rgb(255, 255, 255);
+}
+
+.moreyogurt {
+    margin-top: 15px;
+    padding: 10px 5px;
+    border-color: rgb(122, 19, 19);
+    border-style:solid;
+    background-color: rgb(122, 19, 19);
+    border-radius: 90px;
+    color:  rgb(255, 255, 255);
+}
+
+.morecake {
+    margin-top: 15px;
+    padding: 10px 5px;
+    border-color: rgb(255, 218, 160);
+    border-style:solid;
+    background-color: rgb(255, 219, 160);
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+}
+.smalllogo{
+    color:  rgb(237, 104, 32);
+    font-family: 'Libre Baskerville', serif;
 }
