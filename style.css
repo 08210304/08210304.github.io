@@ -133,3 +133,11 @@
     color:  rgb(237, 104, 32);
     font-family: 'Libre Baskerville', serif;
 }
+.map{
+    opacity: 0.3;
+}
+.map:hover{
+    opacity: 1;
+    transform:scale(1.05);
+    transition: 0.5s;
+}
